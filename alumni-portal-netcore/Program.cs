@@ -1,8 +1,5 @@
-using CoUAlumniPortal.Entities;
 using CoUAlumniPortal.Models;
 using CoUAlumniPortal.Services;
-using Microsoft.Extensions.Options;
-using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +15,7 @@ builder.Services.Configure<UsersDatabaseSettings>(
 builder.Services.AddSingleton<UsersService>();
 builder.Services.AddControllers().AddJsonOptions(options =>
 options.JsonSerializerOptions.PropertyNamingPolicy= null);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
