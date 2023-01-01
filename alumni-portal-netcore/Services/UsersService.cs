@@ -1,9 +1,9 @@
-﻿using CoUAlumniPortal.Entities;
-using CoUAlumniPortal.Models;
+﻿using AlumniPortal.Entities;
+using AlumniPortal.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace CoUAlumniPortal.Services
+namespace AlumniPortal.Services
 {
     public class UsersService : IUsersService
     {

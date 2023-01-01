@@ -1,4 +1,4 @@
-﻿namespace CoUAlumniPortal.Models
+﻿namespace AlumniPortal.Models
 {
     public class UsersDatabaseSettings : IUsersDatabaseSettings
     {

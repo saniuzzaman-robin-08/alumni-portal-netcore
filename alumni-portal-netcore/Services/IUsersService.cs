@@ -1,6 +1,6 @@
-﻿using CoUAlumniPortal.Entities;
+﻿using AlumniPortal.Entities;
 
-namespace CoUAlumniPortal.Services
+namespace AlumniPortal.Services
 {
     public interface IUsersService
     {

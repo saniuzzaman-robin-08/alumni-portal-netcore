@@ -1,5 +1,5 @@
-using CoUAlumniPortal.Models;
-using CoUAlumniPortal.Services;
+using AlumniPortal.Models;
+using AlumniPortal.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

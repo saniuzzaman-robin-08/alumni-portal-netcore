@@ -1,8 +1,8 @@
-﻿using CoUAlumniPortal.Entities;
-using CoUAlumniPortal.Services;
+﻿using AlumniPortal.Entities;
+using AlumniPortal.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CoUAlumniPortal.Controllers
+namespace AlumniPortal.Controllers
 {
     [ApiController]
     [Route("[controller]")]

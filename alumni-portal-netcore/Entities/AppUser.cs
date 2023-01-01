@@ -1,8 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using System.Runtime.InteropServices;
 
-namespace CoUAlumniPortal.Entities
+namespace AlumniPortal.Entities
 {
     [BsonIgnoreExtraElements]
     public class AppUser
